@@ -1,0 +1,45 @@
+
+.Film{
+    text-decoration: none;
+    border: 2px solid white;
+    width: 100%;
+}
+
+.Form-Film{
+    height: 85%;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid rgb(153, 150, 150);
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    .Image-Film{
+        height: 85%;
+        width: 100%;
+    }
+    
+    .Name-Film{
+        height:15%;
+        position: relative;
+        .Name{
+            position: absolute;
+            margin-top: 2%;
+            margin-left: 2%;
+            margin-right: 2%;
+            font-weight:500;
+            color: white;
+        }
+    }
+}
+
+.Form-Film:hover{
+    height: 87%;
+    width: 82%;
+}   
+
+
+
+

@@ -1,0 +1,45 @@
+
+
+
+.Film{
+    position: relative;
+}
+
+
+.VideoFilm{
+    width: 90%;
+    border: none;
+}
+
+
+.Tapphim{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.TenPhim{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.col-sm-1{
+    
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.col-sm-1:hover{
+    background-color:rgb(245, 186, 76);
+    border: 2px solid rgb(245, 186, 76);
+}

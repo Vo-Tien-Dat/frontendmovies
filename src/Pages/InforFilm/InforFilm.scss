@@ -1,0 +1,96 @@
+
+
+
+.container-sm{
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.NameFilm{
+    font-size: 40px;
+    font-weight: 700;
+    color: orange;
+}
+
+.Page-infor{
+    border: 2px solid white;
+    display: flex;
+    border-radius: 5px;
+    height: 400px;
+    .BackgroundFilm{
+        display: inline-block;
+        position: relative;
+        height:100%;
+        width: 30%;
+        .BackgroundFilm-Image{
+            width: 100%;
+            height: 100%;
+        }
+        .Control{
+            position: absolute;
+            height: 15%;
+            width: 100%;    
+            top: 85%;
+            background-color: aqua;
+            color: white;
+            opacity: 0.5;
+        }
+    }
+    .List-Infor-Film{
+        padding: 20px;
+        height: 100%;
+        width: 70%;
+        display: inline-block;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .container-sm{
+        max-width: 500px;
+    }
+}
+
+ul li{
+    color: white;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+.Submit{
+    position: absolute;
+    top:25%;
+    transform: translateY(-30%);
+    transform: translateX(50%);
+    opacity: 1;
+    color: white;
+}
+
+.Submit a{
+    text-decoration: none;
+}
+
+
+.loaction{
+    text-decoration: none;
+}
+
+
+.ReviewFilm{
+    border: 2px solid white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
